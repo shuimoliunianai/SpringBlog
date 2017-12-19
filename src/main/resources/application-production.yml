@@ -13,7 +13,7 @@ spring:
         caching: true
 
     dataSource:
-      driverClassName: com.mysql.jdbc.Driver
+      driverClassName: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://127.0.0.1/spring_blog?serverTimezone=UTC
       username: root
       password:
